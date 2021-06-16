@@ -98,8 +98,40 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit3.pas">
+        <DCCReference Include="StartScherm.pas">
             <Form>Form3</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="KlantToevoegen.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="KlantenOverzicht.pas">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ContactPersonenOverzicht.pas">
+            <Form>Form4</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ContactPersoonToevoegen.pas">
+            <Form>Form5</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ZoekResultaatKlanten.pas">
+            <Form>Form6</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ZoekResultaatContact.pas">
+            <Form>Form7</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="KlantEdit.pas">
+            <Form>Form8</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ContactPersoonEdit.pas">
+            <Form>Form9</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
